@@ -1,0 +1,94 @@
+body{
+   background-color: #f4f6f8;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+.titleInputText{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+      width: 630px;
+    height: 40px;
+    border-radius: 15px;
+}
+#content{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width:630px ;
+    height: 80px;
+    border-radius: 15px;
+}
+
+input:focus, textarea:focus{
+    border-color:#4a90e2;
+    outline: none;
+}
+
+#addtolist{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-color: gray;
+font-size: 80px;
+color: white;
+margin-bottom: 50px;
+cursor: pointer;
+}
+#removeAll{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-color:gray ;
+font-size: 80px;
+color: white;
+margin-bottom: 50px;
+cursor: pointer;
+}
+#notes{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border: 1px dashed rgb(0, 0, 0);
+    width: 560px;
+    min-height: 180px;
+      flex-direction: column;
+}
+.note{
+    background-color: rgba(12, 10, 10, 0.116);
+border-radius: 50px;
+justify-content:  center ;
+    display: flex;
+text-align: center;
+    height: 100px;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 50px;
+border:2px solid gray ;
+}
+.note:hover{
+    transform: translateY(-2px);
+}
+.title{
+    font-size: 30px;
+}
+p{
+   font-size: 15px; 
+   color: white;
+}
+h2 {
+    display: flex;
+    font-size: 30px;
+    background: rgba(76, 76, 76, 0.5);
+    border-radius: 10%;
+    width: 180px;
+    height:80px;
+color: white;
+background-color: rgba(0, 0, 0, 0.247);
+}
